@@ -1,0 +1,32 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+}
+
+/* Full Width Image */
+.full-width-image img {
+    width: 100%;
+    height: auto;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .full-width-image img {
+        content: url('hongkong_en_mobile.jpg');
+    }
+}
